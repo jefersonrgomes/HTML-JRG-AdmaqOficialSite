@@ -7,6 +7,7 @@
 :root {
 
   --amarelo: #FED700;
+  --linear: linear-gradient(45deg, var(--amarelo) 0%, #a3ebd5 100%);
 }
 
 /*--------------------------------------------------------------
@@ -78,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #fff;
+  background: #888;
   border-bottom: 1px solid #eee;
   font-size: 14px;
   padding: 0;
@@ -87,8 +88,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #topbar .contact-info i {
   font-style: normal;
-  color: var(--amarelo);
+  color: whitesmoke;
+    text-shadow: 0.2px 0.2px 0.2px black;
+
 }
+
 
 #topbar .contact-info i a, #topbar .contact-info i span {
   padding-left: 5px;
@@ -101,7 +105,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info i a:hover {
-  color: var(--amarelo);
+  color: whitesmoke;
+  text-shadow: 0.5px 0.5px 2px black;
+
+
 }
 
 #topbar .social-links a {
@@ -137,14 +144,18 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  text-shadow: 2px 2px 2px black;
+
 }
 
 #header #logo h1 a {
   color: var(--amarelo);
+  text-shadow: 2px 2px 2px black;
+
 }
 
 #header #logo h1 a span {
-  color: var(--amarelo);
+  color: linear-gradient(45deg, var(--amarelo) 0%, #a3ebd5 100%);
 }
 
 #header #logo img {
@@ -384,9 +395,9 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   position: relative;
-  background: url("../img/hero-carousel/1.jpg") no-repeat;
+  background: url(https://scontent.fgru9-1.fna.fbcdn.net/v/t1.6435-9/86459919_100429911553866_5862079894556508160_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeERwrVnmm8Dv0kRmQzRuufnYnX5bxMY-h5idflvExj6HhVkbmQdF5GrBeqaALYuUKc1yhFe0dl2rA3qYy1Ieli4&_nc_ohc=EaIiy36PFpcAX-8VjP6&_nc_ht=scontent.fgru9-1.fna&oh=00_AT8-bJG7-sPdUrdXpMoe7zESkAQtXvfeBh8NwXvnHriiOA&oe=620867FE) no-repeat;
   background-size: cover;
   padding: 0;
 }
@@ -408,13 +419,20 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-content h2 {
   color: #0c2e8a;
   margin-bottom: 30px;
-  font-size: 64px;
+  font-size: 80px;
   font-weight: 700;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 2px var(--amarelo);
+  text-transform: uppercase;
+
+
 }
 
 #hero .hero-content h2 span {
   color: var(--amarelo);
   text-decoration: underline;
+  text-shadow: 2px 2px 2px black;
+  text-transform: uppercase;
 }
 
 @media (max-width: 767px) {
@@ -425,7 +443,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .hero-content .btn-get-started, #hero .hero-content .btn-projects {
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 24px;
   font-weight: bold;
   letter-spacing: 1px;
   display: inline-block;
@@ -433,7 +451,10 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 2px;
   transition: 0.5s;
   margin: 10px;
-  color: #fff;
+  color: #111;
+  border-radius: 8px;
+  -webkit-box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.7);
 }
 
 #hero .hero-content .btn-get-started {
@@ -441,24 +462,28 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #0c2e8a;
 }
 
+
+
+#hero .hero-content .btn-projects {
+  background: var(--linear);
+  border: 2px solid var(--linear);
+}
+
+/*
 #hero .hero-content .btn-get-started:hover {
   background: none;
   color: #0c2e8a;
 }
-
-#hero .hero-content .btn-projects {
-  background: var(--amarelo);
-  border: 2px solid var(--amarelo);
-}
-
 #hero .hero-content .btn-projects:hover {
   background: none;
   color: var(--amarelo);
 }
+*/
+
 
 #hero .hero-slider {
   z-index: 8;
-  height: 60vh;
+  height: 70vh;
 }
 
 #hero .hero-slider::before {
@@ -579,6 +604,7 @@ section {
 --------------------------------*/
 #about {
   padding: 60px 0 30px 0;
+
 }
 
 #about .about-img {
@@ -604,7 +630,7 @@ section {
 #about .content h2 {
   color: #0c2e8a;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 40px;
   font-family: "Raleway", sans-serif;
 }
 

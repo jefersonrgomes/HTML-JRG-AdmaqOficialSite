@@ -14,7 +14,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #eee;
+  background: #EBEBEB;
   color: #444;
   font-family: "Open Sans", sans-serif;
 }
@@ -676,6 +676,8 @@ section {
   background: #fff;
   transition: 0.4s;
   height: 100%;
+  border-radius: 10px;
+
 }
 
 #services .box:hover {
@@ -683,6 +685,9 @@ section {
   transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
   -moz-transform: translateY(-10px);
+
+  -webkit-box-shadow: 6px 6px 15px -3px #000000;
+  box-shadow: 6px 6px 15px -3px #000000;
 }
 
 #services .box .icon {
@@ -768,11 +773,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid var(--amarelo);
+  border: 1px solid lightgreen;
 }
 
 #clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--amarelo);
+  background-color: green;
 }
 
 /* Our Portfolio Section
@@ -895,11 +900,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid var(--amarelo);
+  border: 1px solid var(--linear);
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--amarelo);
+  background-color: var(--linear);
 }
 
 .portfolio-details .portfolio-info {
@@ -955,7 +960,11 @@ section {
   margin: 30px 15px;
   text-align: center;
   min-height: 350px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  background: whitesmoke;
+  -webkit-box-shadow: 6px 6px 15px -3px #000000;
+  box-shadow: 6px 6px 15px -3px #000000;
+  border-radius: 10px;
+
 }
 
 @media (max-width: 767px) {
@@ -1014,11 +1023,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid var(--amarelo);
+  border: 1px solid var(--linear);
 }
 
 #testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--amarelo);
+  background-color: var(--linear);
 }
 
 /* Call To Action Section
@@ -1088,13 +1097,17 @@ section {
 }
 
 #team .member .details {
-  background: var(--amarelo);
-  color: #fff;
+  background: var(--linear);
+  color: #222;
   padding: 15px;
-  border-radius: 0 0 3px 3px;
+  border-radius: 5px;
+  -webkit-box-shadow: 6px 6px 15px -3px #000000;
+  box-shadow: 6px 6px 15px -3px #000000;
+
 }
 
 #team .member h4 {
+
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
@@ -1111,7 +1124,7 @@ section {
 }
 
 #team .member .social a {
-  color: #fff;
+  color: #555;
 }
 
 #team .member .social i {
@@ -1131,10 +1144,10 @@ section {
 }
 
 #contact .contact-info i {
-  font-size: 48px;
+  font-size: 38px;
   display: inline-block;
   margin-bottom: 10px;
-  color: var(--amarelo);
+  color: green;
 }
 
 #contact .contact-info address, #contact .contact-info p {
@@ -1155,7 +1168,7 @@ section {
 }
 
 #contact .contact-info a:hover {
-  color: var(--amarelo);
+  color: rgb(184, 134, 11);
 }
 
 #contact .contact-address, #contact .contact-phone, #contact .contact-email {
@@ -1252,9 +1265,12 @@ section {
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
-  color: #fff;
+  color: rgb(27, 27, 27);
   transition: 0.4s;
   cursor: pointer;
+  text-transform: uppercase;
+  text-shadow: #000000;
+  
 }
 
 #contact .php-email-form button[type=submit]:hover {

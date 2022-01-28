@@ -417,19 +417,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-content h2 {
-  color: #0c2e8a;
+  color: #222;
   margin-bottom: 30px;
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 700;
   letter-spacing: 5px;
-  text-shadow: 2px 2px 2px var(--amarelo);
+  text-shadow: 2px 2px 2px #ddd;
   text-transform: uppercase;
 
 
 }
 
 #hero .hero-content h2 span {
-  color: var(--amarelo);
+  color: whitesmoke;
   text-decoration: underline;
   text-shadow: 2px 2px 2px black;
   text-transform: uppercase;
@@ -437,13 +437,13 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 767px) {
   #hero .hero-content h2 {
-    font-size: 34px;
+    font-size: 24px;
   }
 }
 
 #hero .hero-content .btn-get-started, #hero .hero-content .btn-projects {
   font-family: "Raleway", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
   display: inline-block;

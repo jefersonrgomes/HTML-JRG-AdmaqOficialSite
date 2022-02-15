@@ -5,8 +5,7 @@
 * License: https://bootstrapmade.com/license/
 */
 :root {
-
-  --amarelo: #FED700;
+  --amarelo: #fed700;
   --linear: linear-gradient(45deg, var(--amarelo) 0%, #a3ebd5 100%);
 }
 
@@ -14,9 +13,9 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #EBEBEB;
+  background: #ebebeb;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -25,7 +24,9 @@ a {
   transition: 0.5s;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: var(--amarelo);
   outline: none;
   text-decoration: none;
@@ -36,8 +37,13 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -87,11 +93,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info i {
-  color: #555;
+  color: black;
 }
 
-
-#topbar .contact-info i a, #topbar .contact-info i span {
+#topbar .contact-info i a,
+#topbar .contact-info i span {
   padding-left: 5px;
   color: #444;
 }
@@ -104,8 +110,6 @@ h1, h2, h3, h4, h5, h6 {
 #topbar .contact-info i a:hover {
   color: whitesmoke;
   text-shadow: 0.5px 0.5px 2px black;
-
-
 }
 
 #topbar .social-links a {
@@ -142,19 +146,18 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2.5rem;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-shadow: 2px 2px 2px rgb(194, 194, 194);
-
 }
 
 #header #logo h1 a {
   color: #333;
   text-shadow: 2px 2px 2px #bbb;
-
 }
 
-#header #logo h1 a span {}
+#header #logo h1 a span {
+}
 
 #header #logo img {
   padding: 0;
@@ -201,12 +204,13 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 22px;
   font-weight: 600;
   color: #444;
@@ -214,16 +218,19 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 18px;
   line-height: 0;
   margin-left: 5px;
 }
 
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover>a {
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
   color: #ddd;
   text-shadow: 0px 2px 2px #222;
-
 }
 
 .navbar .dropdown ul {
@@ -254,11 +261,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
   color: var(--amarelo);
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -270,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -282,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -344,17 +353,21 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-.navbar-mobile a, .navbar-mobile a:focus {
+.navbar-mobile a,
+.navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
   color: #0c2e8a;
 }
 
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover>a {
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
   color: var(--amarelo);
 }
 
-.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
   margin: 15px;
 }
 
@@ -382,11 +395,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
   color: var(--amarelo);
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -395,7 +410,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   position: relative;
   background: #333;
   background-size: cover;
@@ -405,15 +420,14 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
-.hero-flex{
+.hero-flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hero-img
-{
-  width:30%;
+.hero-img {
+  width: 65%;
 }
 
 #hero .hero-content {
@@ -425,13 +439,14 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-#hero .hero-content h2 {
-  color: #222;
+#hero .hero-content h2,
+h3 {
+  color: whitesmoke;
   margin-bottom: 30px;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 5px;
-  text-shadow: 2px 2px 2px #ddd;
+  text-shadow: 2px 2px 2px #888;
   text-transform: uppercase;
 }
 
@@ -443,13 +458,64 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 767px) {
+  #hero {
+    height: 50vh;
+    padding: 5px;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
   #hero .hero-content h2 {
-    font-size: 24px;
+    font-size: 32px;
+  }
+
+  #topbar {
+    margin: 10px;
+    background: #ddd !important;
+    border: none;
+    padding:5px;
+    color: whitesmoke !important;
+  }
+
+  .contact-info {
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  .contact-info div {
+    padding: 5px;
+    margin: 5;
+    text-align: center;
+  }
+
+  .contact-info i {
+    
+  }
+  .contact-info i:nth-child(2) {
+    color: #222 !important;
+    margin-top: 5px;
+    margin-left: 0 !important;
   }
 }
 
-#hero .hero-content .btn-get-started, #hero .hero-content .btn-projects {
-  font-family: "Raleway", sans-serif;
+@media (max-width: 991px) {
+  #hero {
+    height: 50vh;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  #hero .hero-content h2 {
+    font-size: 32px;
+  }
+}
+
+#hero .hero-content .btn-get-started,
+#hero .hero-content .btn-projects {
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -468,8 +534,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #0c2e8a;
   border: 2px solid #0c2e8a;
 }
-
-
 
 #hero .hero-content .btn-projects {
   background: var(--linear);
@@ -493,7 +557,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-slider::before {
-  content: "";
+  content: '';
   background-color: rgba(255, 255, 255, 0.445);
   position: absolute;
   height: 100%;
@@ -536,7 +600,7 @@ section {
 }
 
 .section-header h2::before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   width: 50px;
@@ -581,15 +645,15 @@ section {
   font-size: 14px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #6c757d;
-  content: "/";
+  content: '/';
 }
 
 @media (max-width: 768px) {
@@ -610,7 +674,6 @@ section {
 --------------------------------*/
 #about {
   padding: 60px 0 30px 0;
-
 }
 
 #about .about-img {
@@ -637,7 +700,7 @@ section {
   color: #0c2e8a;
   font-weight: 700;
   font-size: 40px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 #about .content h3 {
@@ -684,7 +747,6 @@ section {
   transition: 0.4s;
   height: 100%;
   border-radius: 10px;
-
 }
 
 #services .box:hover {
@@ -746,7 +808,8 @@ section {
     padding-bottom: 15px;
   }
 
-  #services .box h4, #services .box p {
+  #services .box h4,
+  #services .box p {
     margin-left: 0;
     text-align: center;
   }
@@ -816,7 +879,8 @@ section {
   border-radius: 4px;
 }
 
-#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
+#portfolio #portfolio-flters li:hover,
+#portfolio #portfolio-flters li.filter-active {
   color: #fff;
   background: var(--amarelo);
 }
@@ -860,7 +924,8 @@ section {
   margin-bottom: 0;
 }
 
-#portfolio .portfolio-item .portfolio-info .preview-link, #portfolio .portfolio-item .portfolio-info .details-link {
+#portfolio .portfolio-item .portfolio-info .preview-link,
+#portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
   right: 50px;
   font-size: 24px;
@@ -869,7 +934,8 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-#portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
+#portfolio .portfolio-item .portfolio-info .preview-link:hover,
+#portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #fff;
 }
 
@@ -902,7 +968,10 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -910,7 +979,10 @@ section {
   border: 1px solid var(--linear);
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: var(--linear);
 }
 
@@ -933,7 +1005,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -957,7 +1029,8 @@ section {
   padding: 30px 0;
 }
 
-#testimonials .testimonials-carousel, #testimonials .testimonials-slider {
+#testimonials .testimonials-carousel,
+#testimonials .testimonials-slider {
   overflow: hidden;
 }
 
@@ -971,7 +1044,6 @@ section {
   -webkit-box-shadow: 6px 6px 15px -3px #000000;
   box-shadow: 6px 6px 15px -3px #000000;
   border-radius: 10px;
-
 }
 
 @media (max-width: 767px) {
@@ -1064,7 +1136,7 @@ section {
 }
 
 #call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1110,11 +1182,9 @@ section {
   border-radius: 5px;
   -webkit-box-shadow: 6px 6px 15px -3px #000000;
   box-shadow: 6px 6px 15px -3px #000000;
-
 }
 
 #team .member h4 {
-
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
@@ -1154,10 +1224,10 @@ section {
   font-size: 38px;
   display: inline-block;
   margin-bottom: 10px;
-  color: green;
 }
 
-#contact .contact-info address, #contact .contact-info p {
+#contact .contact-info address,
+#contact .contact-info p {
   margin-bottom: 0;
   color: #000;
 }
@@ -1178,12 +1248,16 @@ section {
   color: rgb(184, 134, 11);
 }
 
-#contact .contact-address, #contact .contact-phone, #contact .contact-email {
+#contact .contact-address,
+#contact .contact-phone,
+#contact .contact-email {
   margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
-  #contact .contact-address, #contact .contact-phone, #contact .contact-email {
+  #contact .contact-address,
+  #contact .contact-phone,
+  #contact .contact-email {
     padding: 20px 0;
   }
 }
@@ -1223,7 +1297,7 @@ section {
   font-weight: 600;
 }
 
-#contact .php-email-form .error-message br+br {
+#contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -1244,7 +1318,7 @@ section {
 }
 
 #contact .php-email-form .loading:before {
-  content: "";
+  content: '';
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -1256,18 +1330,20 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-#contact .php-email-form input, #contact .php-email-form textarea {
+#contact .php-email-form input,
+#contact .php-email-form textarea {
   padding: 10px 14px;
   border-radius: 0;
   box-shadow: none;
   font-size: 15px;
 }
 
-#contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
+#contact .php-email-form input::focus,
+#contact .php-email-form textarea::focus {
   background-color: var(--amarelo);
 }
 
-#contact .php-email-form button[type=submit] {
+#contact .php-email-form button[type='submit'] {
   background: var(--amarelo);
   border: 0;
   border-radius: 3px;
@@ -1277,10 +1353,9 @@ section {
   cursor: pointer;
   text-transform: uppercase;
   text-shadow: #000000;
-
 }
 
-#contact .php-email-form button[type=submit]:hover {
+#contact .php-email-form button[type='submit']:hover {
   background: #2dc899;
 }
 

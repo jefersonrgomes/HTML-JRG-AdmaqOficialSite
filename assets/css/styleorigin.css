@@ -380,7 +380,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 60vh;
+  height: 85vh;
   position: relative;
   background: url("../img/hero-carousel/1.jpg") no-repeat;
   background-size: cover;
@@ -454,12 +454,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .hero-slider {
   z-index: 8;
-  height: 60vh;
+  height: 85vh;
 }
 
 #hero .hero-slider::before {
   content: "";
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.247);
   position: absolute;
   height: 100%;
   width: 100%;

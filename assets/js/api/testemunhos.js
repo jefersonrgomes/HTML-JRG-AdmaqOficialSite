@@ -35,7 +35,6 @@ function TestemunhoComponent(e) {
             <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
             <h3>${e.client}</h3>
-            <h4>${e.company}</h4> 
          </div>
       </div>
       `;

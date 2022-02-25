@@ -575,19 +575,18 @@ section {
 --------------------------------*/
 #about {
   padding: 60px 0 30px 0;
+  background: #ddd;
+
 }
 
 #about .about-img {
-  display: flex;
-  justify-content: center;
-  align-content: center;
   overflow: hidden;
 }
 
 #about .about-img img {
-  margin-left: -15px;
-  max-width: 100%;
-  border: 5px solid #50d8af;
+  margin-left: -10px;
+  max-width: 90%;
+  border: 10px solid #50d8afad;
 
 }
 
@@ -1067,7 +1066,7 @@ section {
 }
 
 #team .member .details {
-  background: #50d8af;
+  background: #50d8af71;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;

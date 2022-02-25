@@ -175,47 +175,12 @@
     </section>
     <!-- End Services Section -->
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Clientes</h2>
-          <p>Alguns dos clientes ADMAQ</p>
-        </div>
-
-        <div class="clients-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid"
-                alt="Massal Guindastes"></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid"
-                alt="Sonho em quatro rodas"></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt="TGL Guindastes">
-            </div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt="Studio by Deni">
-            </div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid"
-                alt="Batistinha Garage"></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt="Dalto Apache">
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section>
-    <!-- End Clients Section -->
-
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2>Portfolio de Projetos</h2>
-          <p>Veja abaixo alguns dos projetos exclusivos realizados pela ADMAQ Vidros Especializados.
-            Atuamos em todas as frentes de Vidros para veiculos.
-            Possuimos tres segmentos de projetos:           
-          </p>
         </div>
-
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
@@ -226,65 +191,48 @@
             </ul>
           </div>
         </div>
-
         <div id='portfolio--list'class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-        
+            <!-- API Portifolio.js -->
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Clientes</h2>
+        </div>
+
+        <div  class="clients-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div id="client--list" class="swiper-wrapper align-items-center">
+            
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
 
       </div>
     </section>
-    <!-- End Portfolio Section -->
+    <!-- End Clients Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2>Testemunhos</h2>
-          <p>Veja o que nossos clientes falam sobre a qualidade dos serviços da ADMAQ.</p>
         </div>
-
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
-                  A aparência ficou melhor do que os originais, otimo acabamento (bem lisos) sem nenhuma ondulação.
-                  Ficou perfeito! <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
-                </p>
-                <img src="ssets/img/testimonial-1.jpg" class="testimonial-img" alt="">
-                <h3>Carlos Hansen</h3>
-                <!--<h4>Ceo &amp; Founder</h4> -->
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
-                  Realizei a compra na ADMAQ VIDROS, que prestou um excelente atendimento, cordial, educado e cumpriu
-                  com os prazos e qualidades prometidas.<img src="assets/img/quote-sign-right.png"
-                    class="quote-sign-right" alt="">
-                </p>
-                <img src="ssets/img/testimonial-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <!--<h4>Designer</h4> -->
-              </div>
-            </div><!-- End testimonial item -->
-
-           
-
+          <div id="testemunho--list" class="swiper-wrapper">
+            <!-- API Testemunho.js -->
           </div><!-- End testimonial item -->
-
         </div>
         <div class="swiper-pagination"></div>
       </div>
-
       </div>
     </section><!-- End Testimonials Section -->
 
-    <!-- ======= Call To Action Section ======= -->
+    <!-- ======= Call To Action Section ======= 
     <section id="call-to-action">
       <div class="container" data-aos="zoom-out">
         <div class="row">
@@ -298,7 +246,8 @@
           </div>
         </div>
       </div>
-    </section><!-- End Call To Action Section -->
+    </section> 
+    <!- End Call To Action Section -->
 
     <!-- ======= Team Section ======= -->
     <section id="team">
@@ -483,6 +432,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/api/portifolio.js"></script>
+  <script src="assets/js/api/testemunhos.js"></script>
 
 </body>
 

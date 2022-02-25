@@ -1,6 +1,6 @@
 # Atividades
 
- - [ ] Ajustar a apresentação na pagina principal
+ - [x] Ajustar a apresentação na pagina principal
  - [ ] Popular com imagens a sessão de produtos e serviços
 
  - [ ] Criar pagina de Veiculos

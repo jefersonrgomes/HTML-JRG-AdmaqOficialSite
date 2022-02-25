@@ -433,21 +433,27 @@ h6 {
   border-radius: 15px;
   -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.7);
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.7);
-
 }
 
 #hero .hero-content {
   z-index: 10;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column;
+  text-align: center;
+}
+#hero .hero-content .content{
+
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
   flex-direction: column;
   text-align: center;
 }
 
 #hero .hero-content h2,
 h3 {
-
   color: #222;
   margin-bottom: 30px;
   font-size: 70px;
@@ -1084,6 +1090,9 @@ section {
   -webkit-box-shadow: 6px 6px 15px -3px #000000;
   box-shadow: 6px 6px 15px -3px #000000;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 @media (max-width: 767px) {
@@ -1273,11 +1282,11 @@ section {
 }
 
 #contact .contact-info h3 {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #999;
+  color: #111;
 }
 
 #contact .contact-info a {

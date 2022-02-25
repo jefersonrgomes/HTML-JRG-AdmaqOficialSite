@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>ADMAQ VIDROS</title>
   <meta content="Pensou Vidros Especiais, Pensou em ADMAQ Vidros" name="description">
   <meta
     content="Vidros Especiais, Vidros Nauticos, Vidros Automotivos, Vidros para Maquinas, vidro para embarcações, vidros para guindaste, vidros para carros importados, vidros para carros antigos"
     name="keywords">
-
   <!-- Favicons -->
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
   <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
     rel="stylesheet">
-
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,9 +21,9 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
+  <link href="assets/css/styleorigin.css" rel="stylesheet">
 </head>
 
 <body>
@@ -37,16 +32,12 @@
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a
-            href="mailto:admaq.vidros@hotmail.com">comercial@admaqvidrosespeciais.com.br</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span><a href="tel:+11 94831-4233">+11
-              94831-4233</a></span></i>
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:admaq.vidros@hotmail.com?" title="Contato via Site">comercial@admaqvidrosespeciais.com.br</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span><a href="tel:+11 94831-4233">+11 94831-4233</a></span></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
-        <a href="https://www.facebook.com/ADMAQVidros" target="_blank" class="facebook"><i
-            class="bi bi-facebook"></i></a>
+        <a href="https://www.facebook.com/ADMAQVidros" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="https://www.instagram.com/admaq.vidros/" target="_blank"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="instagram">LogIn</a>
       </div>
     </div>
   </section><!-- End Top Bar-->
@@ -65,7 +56,13 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
-          <li><a class="nav-link scrollto" href="#services">Serviços</a></li>
+           <li class="dropdown"><a href="#"><span>Serviços</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+                  <li><a href="#">Nautica Glass</a></li>
+                  <li><a href="#">Machine Glass</a></li>
+                  <li><a href="#">S.Autos Glass</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#team">Equipe</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
@@ -76,7 +73,7 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= hero Section ======= -->
+  <!-- ======= OLD hero Section ======= 
   <section id="hero">
     <div class="hero-flex ">
       <div class="hero-content " data-aos="fade-up">
@@ -92,16 +89,49 @@
           </div>
         </div>
       </div>
+  </section>
+  End OLD Hero Section -->
+
+
+
+  
+  <!-- ======= hero Section ======= -->
+  <section id="hero">
+
+    <div class="hero-content" data-aos="fade-up">
+      <h2>Pensou vidros especiais<br><span>Admaq Vidros</span></h2>
+      <div>
+        <a href="#contact" class="btn-get-started scrollto">Contato</a>
+        <a href="#about" class="btn-projects scrollto">Nossos Serviços</a>
+      </div>
+    </div>
+
+    <div class="hero-slider swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image: url('assets/img/hero-carousel/1.jpg');"></div>
+        <div class="swiper-slide" style="background-image: url('assets/img/hero-carousel/2.jpg');"></div>
+        <div class="swiper-slide" style="background-image: url('assets/img/hero-carousel/3.jpg');"></div>
+        <div class="swiper-slide" style="background-image: url('assets/img/hero-carousel/4.jpg');"></div>
+        <div class="swiper-slide" style="background-image: url('assets/img/hero-carousel/5.jpg');"></div>
+      </div>
+    </div>
+
   </section><!-- End Hero Section -->
 
+
   <main id="main">
+
 
     <!-- ======= About Section ======= -->
     <section id="about">
       <div class="container" data-aos="fade-up">
         <div class="row">
+          <div class="col-lg-6 about-img">
+            <img src="assets/img/brand/admaq-logo.jpg" alt="">
+          </div>
+
           <div class="col-lg-6 content">
-            <h2>Pensou Vidros Especiais, Pensou ADMAQ Vidros</h2>
+            <h2>ADMAQ VIDROS E PROJETOS EXCLUSIVOS</h2>
             <h3>Somos uma Fabrica de vidros especializada em vidros laminados e temperados para projetos exclusivos, de
               carros, maquinas e embarcações.</h3>
             <ul>
@@ -110,16 +140,12 @@
               <li><i class="bi bi-check-circle"></i> Garantia de qualidade, contamos com uma equipe tecnica de
                 especialistas com ampla experiencia na area, prontos para garantir a satisfação no resultado final.</li>
               <li><i class="bi bi-check-circle"></i> Utilização de materiais de primeira qualidade, utilizamos o que ha
-                de melhor no mercado, malha de PVB para garantir maior durabilidade, conforto e segurança.</li>
+                de melhor no mercado, malha de PVB para garantir maior durabilidade, conforto e segurança.</li>  
             </ul>
-          </div>
-          <div class="col-lg-6 about-img">
-            <img src="./assets/img/brand/admaq-services.jpg" alt="Admaq Logo">
           </div>
         </div>
       </div>
-    </section>
-    <!-- End About Section -->
+    </section><!-- End About Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services">
@@ -175,28 +201,155 @@
     </section>
     <!-- End Services Section -->
 
+
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2>Portfolio de Projetos</h2>
+          <h2>Portfolio</h2>
+          <p></p>
         </div>
+
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">Todos</li>
-              <li data-filter=".filter-autos">Super Autos</li>
-              <li data-filter=".filter-maquinas">Super Maquinas</li>
-              <li data-filter=".filter-nautica">Nautica Adventure</li>
+              <li data-filter=".filter-app">Autos</li>    <!-- Carros -->
+              <li data-filter=".filter-card">Maquinas</li>    <!-- Maquinas -->
+              <li data-filter=".filter-web">Nauticas</li>    <!-- Embarcações -->
             </ul>
           </div>
         </div>
-        <div id='portfolio--list'class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-            <!-- API Portifolio.js -->
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+          <!--Machines Section -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="./assets/img/services/machines/maq1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4></h4>
+              <p></p>
+              <a href="./assets/img/services/machines/maq1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="./assets/img/services/machines/maq2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4></h4>
+              <p></p>
+              <a href="./assets/img/services/machines/maq2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="./assets/img/services/machines/maq3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4></h4>
+              <p></p>
+              <a href="./assets/img/services/machines/maq3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="./assets/img/services/machines/maq4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4></h4>
+              <p></p>
+              <a href="./assets/img/services/machines/maq4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="./assets/img/services/machines/maq5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4></h4>
+              <p></p>
+              <a href="./assets/img/services/machines/maq5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="./assets/img/services/machines/maq6.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4></h4>
+              <p></p>
+              <a href="./assets/img/services/machines/maq6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+          <!--Boats Section -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="./assets/img/services/boats/barco1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4></h4>
+              <p></p>
+              <a href="./assets/img/services/boats/barco1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="./assets/img/services/boats/barco2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4></h4>
+              <p></p>
+              <a href="./assets/img/services/boats/barco2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="./assets/img/services/boats/barco3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4></h4>
+              <p></p>
+              <a href="./assets/img/services/boats/barco3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <!--Cars Section -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./assets/img/services/cars/carro1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4></h4>
+              <p></p>
+              <a href="./assets/img/services/cars/carro1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./assets/img/services/cars/carro2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4></h4>
+              <p></p>
+              <a href="./assets/img/services/cars/carro2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./assets/img/services/cars/carro3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4></h4>
+              <p></p>
+              <a href="./assets/img/services/cars/carro3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <!-- End Portfolio Section -->
+     <!--End Portfolio Section -->
 
     <!-- ======= Clients Section ======= -->
     <section id="clients">
@@ -360,10 +513,10 @@
       <div class="container mb-4">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.571217642646!2d-46.342787485024374!3d-23.439851484743343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7d191c7705bd%3A0xa8d7f66469f2616c!2sAvenida%20Cardeal%2C%20419%20-%20Parque%20Sao%20Pedro%2C%20Itaquaquecetuba%20-%20SP%2C%2008586-010!5e0!3m2!1spt-BR!2sbr!4v1643380103300!5m2!1spt-BR!2sbr"
-          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          width="100%" height="650" style="border: 2px;" allowfullscreen="" loading="lazy"></iframe>
       </div>
 
-      <div class="container">
+      <!-- <div class="container">
         <div class="form">
           <form action="forms/contact.php" method="post" role="form" class="php-email-form">
             <div class="row">
@@ -393,7 +546,7 @@
           </form>
         </div>
 
-      </div>
+      </div> -->
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
@@ -405,12 +558,6 @@
         &copy; Copyright <strong>ADMAQ</strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!--
-        All the links in the footer should remain intact.
-        You can delete the links only if you purchased the pro version.
-        Licensing information: https://bootstrapmade.com/license/
-        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=ADMAQ
-      -->
         Designed by <a href="https://jrgdev.vercel.app/" target="_blank">JRG_Dev</a>
       </div>
     </div>
@@ -433,7 +580,6 @@
   <!-- Template Main JS File -->
   <script src="assets/js/api/portifolio.js"></script>
   <script src="assets/js/api/testemunhos.js"></script>
-
+  <script src="assets/js/api/clients.js"></script>
 </body>
-
 </html>

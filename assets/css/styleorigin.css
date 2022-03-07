@@ -1,10 +1,3 @@
-/**
-* Template Name: Reveal - v4.7.0
-* Template URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -127,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
   #topbar .contact-info {
-flex-direction: column;
+    flex-direction: column;
     color: #50d8af;
   }
 
@@ -216,11 +209,12 @@ flex-direction: column;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
   color: #444;
   white-space: nowrap;
   transition: 0.3s;
+
 }
 
 .navbar a i, .navbar a:focus i {
@@ -231,6 +225,8 @@ flex-direction: column;
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover>a {
   color: #50d8af;
+  text-shadow: 1px 1px 1px #444;
+
 }
 
 .navbar .dropdown ul {
@@ -299,7 +295,7 @@ flex-direction: column;
 */
 .mobile-nav-toggle {
   color: #0c2e8a;
-  font-size: 28px;
+  font-size: 30px;
   cursor: pointer;
   display: none;
   line-height: 0;
@@ -327,8 +323,8 @@ flex-direction: column;
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(8, 30, 91, 0.9);
-  transition: 0.3s;
+  background: rgba(8, 30, 91, 0.575);
+  transition: 0.4s;
   z-index: 999;
 }
 
@@ -349,11 +345,13 @@ flex-direction: column;
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
+  border-radius: 5px;
+
 }
 
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 25px;
   color: #0c2e8a;
 }
 
@@ -426,13 +424,18 @@ flex-direction: column;
 #hero .hero-content h2 {
   color: #0c2e8a;
   margin-bottom: 30px;
-  font-size: 64px;
+  font-size: 70px;
   font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #FFFFFF;
 }
 
 #hero .hero-content h2 span {
-  color: #50d8af;
+  color: #fff;
   text-decoration: underline;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #0c2e8a;
+
 }
 
 @media (max-width: 767px) {
@@ -759,17 +762,21 @@ section {
 --------------------------------*/
 #clients {
   padding: 30px 0;
+  background: rgb(12, 46, 138);
+  background: linear-gradient(333deg, rgba(12, 46, 138, 1) 39%, rgba(80, 216, 175, 1) 100%);
+
 }
 
 #clients img {
   max-width: 100%;
   opacity: 0.5;
   transition: 0.3s;
-  padding: 15px 0;
+  border-radius: 10px;
+  opacity: 1;
 }
 
 #clients img:hover {
-  opacity: 1;
+  opacity: 2;
 }
 
 #clients .swiper-pagination {
@@ -793,7 +800,8 @@ section {
 /* Our Portfolio Section
 --------------------------------*/
 #portfolio {
-  background: #ccc;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 33%);
   padding: 30px 0;
 }
 
@@ -821,7 +829,7 @@ section {
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #50d8af;
+  background: #0c2e8a;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -837,7 +845,7 @@ section {
   position: relative;
   top: 0;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
-  border: 5px solid #50d8af;
+  border: 4px solid #0c2e8a7c;
   border-radius: 5px;
 }
 
@@ -849,7 +857,9 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #50d8af;
+  background: #0c2e8a;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   padding: 15px 20px;
 }
 
@@ -1093,9 +1103,8 @@ section {
 /* Our Team Section
 --------------------------------*/
 #team {
-  background-image: url("../img/brand/background.png");
-  background-repeat: none;
-  background-size: cover;
+  background: rgb(12, 46, 138);
+  background: linear-gradient(333deg, rgba(12, 46, 138, 1) 39%, rgba(80, 216, 175, 1) 100%);
   padding: 30px 0 0 0;
 }
 

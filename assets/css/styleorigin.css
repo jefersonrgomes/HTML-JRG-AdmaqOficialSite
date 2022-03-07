@@ -114,16 +114,24 @@ h1, h2, h3, h4, h5, h6 {
   #topbar {
     padding-top: 15px;
     padding-bottom: 15px;
-    height: 50px;
+    height: 70px;
 
   }
 
 
   #topbar .contact-info {
+    display: flex !important;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: flex-start !important;
     flex-direction: column;
     color: #50d8af;
   }
 
+  #topbar .contact-info i a {
+    line-height: 1.3;
+  }
 
 }
 

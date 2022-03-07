@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #fff;
+  background: whitesmoke;
   border-bottom: 1px solid #eee;
   font-size: 14px;
   padding: 0;
@@ -114,6 +114,28 @@ h1, h2, h3, h4, h5, h6 {
 
 #topbar .social-links a:first-child {
   border-left: 0;
+}
+
+
+@media (max-width: 465px) {
+  #topbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 50px;
+
+  }
+
+
+  #topbar .contact-info {
+flex-direction: column;
+    color: #50d8af;
+  }
+
+
+}
+
+.scrolled-offset {
+  margin-top: 70px;
 }
 
 /*--------------------------------------------------------------

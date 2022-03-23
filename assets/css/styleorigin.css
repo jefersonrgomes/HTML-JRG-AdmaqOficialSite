@@ -922,6 +922,10 @@ section {
   border-radius: 5px;
 }
 
+.img-inverter{
+  transform: scaleX(-1);
+}
+
 #portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
